@@ -2,7 +2,7 @@
   <h2>Overview</h2>
   Coming Soon!
 
-  Live Link:
+  Live Link: <a href = "https://nbastatstemplate.netlify.app/"> Click Here</a>
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
