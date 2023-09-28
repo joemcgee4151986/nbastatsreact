@@ -53,16 +53,16 @@ font: Helvetica;
 `
 const Box3 = styled.div`
 display: inline-flex;
-margin: 0 auto;
+position: relative;
 min-width: 25%;
 font-size: 1.5em;
-text-align: center;
+text-align:center;
 color: white;
 background-color:GREY;
 outline: solid 1px white;
 font: Helvetica;
-
 `
+
 
 
 const Image = styled.img`
@@ -89,15 +89,17 @@ function Header() {
       Points Per Game
      
      </Box2>
-     <Box3>
+     <Box2>
       Points Per Game
-     </Box3>
+     </Box2>
      <Box2>
       Assists Per Game
      </Box2>
      <Box2>
       Steals Per Game
      </Box2>
+  
+  
 </div>
   );
 }

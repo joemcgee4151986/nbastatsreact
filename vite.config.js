@@ -11,5 +11,5 @@ export default defineConfig({
       },
     },
   },
-  assetsInclude: ["**/*.JPG"],
+  assetsInclude: ["**/*.JPG","**/*.JSX"],
 });

@@ -1,22 +1,22 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from './Components/Header/Header.jsx'
+import Body from './Components/Body/Body.jsx'
 
 import './App.css'
 
-function Header() {
-  return(
-  <button>
-    I'm a button
-  </button>
-  );
-}
 
 export default function myApp() {
 return(
-  <div>
-    <h1>
-      Hi. Bye
-    </h1>
-    <Header />
-  </div>
-)
+  <Router>
+    <div>
+    <Routes>
+      <Route path="/Header" element={<Header/>} />
+      <Route path="/Body" element={<Body/>} />
+    </Routes>
+    </div>
+    </Router>
+
+);
 }
 
