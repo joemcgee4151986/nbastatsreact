@@ -7,7 +7,7 @@ margin-top: 0;
 `
 const Container = styled.div`
 display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  flex-wrap: wrap; 
 `
 const Box3 = styled.div`
 background-color: yellow;
@@ -42,9 +42,9 @@ justify-content: center;
 const Box5 = styled.div`
 position: relative;
 background-color: gray;
-flex-direction: row; /* Change to row */
+flex-direction: row; 
 outline: solid 1px white;
-width: 5%; /* Adjust the width to your preference */
+width: 5%; 
 height:10%;
 padding-top: 5%;
 align-items: center;
@@ -55,9 +55,9 @@ background-size: cover;
 const Box6 = styled.div`
 position: relative;
 background-color: gray;
-flex-direction: row; /* Change to row */
+flex-direction: row; 
 outline: solid 1px white;
-width: 15%; /* Adjust the width to your preference */
+width: 15%; 
 height:10px;
 padding-top: 3%;
 align-items: center;
