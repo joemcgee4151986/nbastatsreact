@@ -4,8 +4,7 @@ logs
 npm-debug.log*
 pnpm-debug.log*
 lerna-debug.log*
-.babelrc
-.eslintrc
+
 node_modules
 dist
 dist-ssr
