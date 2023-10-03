@@ -131,7 +131,7 @@ function BodyPage(){
      <Box5></Box5>
      <Box6></Box6>
      </Container>
-     
+     <Container></Container>
      </div>
     )
 }
