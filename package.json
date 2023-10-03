@@ -1,5 +1,5 @@
 {
-  "name": "nbastats",
+  "name": "nbastatsreact",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,6 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "watch": "npm-watch"
-    
   },
   "dependencies": {
     "i": "^0.3.7",
@@ -19,7 +18,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.16.0",
-    "styled-components": "^6.0.8"
+    "styled-components": "^6.0.8",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -36,5 +36,9 @@
       ],
       "extensions": "js,jsx"
     }
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/joemcgee4151986/nbastatsreact.git",
+  "author": "joemcgee4151986 <joerobertmcgee@gmail.com>",
+  "license": "MIT"
 }
