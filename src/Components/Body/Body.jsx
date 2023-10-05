@@ -80,6 +80,21 @@ padding-bottom: 3%;
 
 justify-content: center;
 `
+const Box8 = styled.div`
+display:flex;
+align-items: flex-start;
+position: relative;
+background-color: gray;
+color: gray;
+flex-direction: column; 
+outline: solid 1px white;
+width: 2%; 
+height:.6em;
+
+padding-bottom: 3%;
+
+justify-content: center;
+`
 
 
 
@@ -103,6 +118,7 @@ function BodyPage(){
      <Box4><Text>2</Text></Box4>
      <Box5></Box5>
      <Box6></Box6>
+     <Box8></Box8>
      <Box4><Text>6</Text></Box4>
      <Box5></Box5>
      <Box6></Box6>
@@ -111,6 +127,7 @@ function BodyPage(){
      <Box7><Text>3</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
+     <Box8></Box8>
      <Box7><Text>7</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
@@ -119,6 +136,7 @@ function BodyPage(){
      <Box7><Text>4</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
+     <Box8></Box8>
      <Box7><Text>8</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
@@ -127,9 +145,11 @@ function BodyPage(){
      <Box7><Text>5</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
+     <Box8></Box8>
      <Box7><Text>9</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
+     <Box8></Box8>
      </Container>
     
      </div>
