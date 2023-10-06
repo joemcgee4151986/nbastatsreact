@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import myHeaderImg from '../../assets/Headerimage.JPG'
-
+import { device } from '../Devices/Devices.jsx'
 
 
 const H1 = styled.h1`
@@ -9,10 +9,8 @@ const H1 = styled.h1`
   font-size: 6vw;
   font-style:Helvetica Condensed;
   color: gray;
-  @media (max-width: 768px) {
-    table-layout: fixed;
-    width: 25%;
-    font-size: 1em;
+  @media ${device.mobileL} {
+    max-width: 425px;
     white-space: nowrap;
    }
 `
@@ -32,9 +30,8 @@ const H1 = styled.h1`
     font: Helvetica;
  background-color: white;
 
- @media (minwidth: 480px) {
-  table-layout: fixed;
-  width: 100%;
+ @media ${device.mobileS} {
+  max-width: 100%;
   white-space: nowrap;
  }
 
@@ -50,10 +47,10 @@ white-space: nowrap;
   font-size: 2.5vh;
   color: white;
   font: Helvetica;
-  @media (min-device-width: 480px) {
-    table-layout: fixed;
-    width: 100%;
+  @media ${device.mobileL} {
+    max-width: 100%;
     white-space: nowrap;
+  
    }
 `
 const Box2 = styled.div`
@@ -66,11 +63,11 @@ color: white;
 background-color:GREY;
 outline: solid 1px white;
 font: Helvetica;
-@media (max-width: 480px) {
-  table-layout: fixed;
-  width: 25%;
-  font-size: 2em;
+@media ${device.mobileS} {
+  min-width: 25%;
   white-space: nowrap;
+  font-size: 12px;
+ }
  }
 
 `
@@ -89,6 +86,7 @@ font: Helvetica;
   width: 25%;
   font-size: 1em;
   white-space: nowrap;
+  flex-direction: row;
  }
 `
 
@@ -103,6 +101,10 @@ margin-right: -18px;
 margin-top: -155px;
 padding: 20px;
 width: 30%;
+@media ${device.mobileL} {
+  max-width: 425px;
+  white-space: nowrap;
+ }
 `
 
 function Header() {
