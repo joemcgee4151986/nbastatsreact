@@ -5,15 +5,15 @@ import { device } from '../Devices/Devices.jsx'
 
 
 const H1 = styled.h1`
-  margin-top: -10px;
-  font-size: 6vw;
+  margin-top: 0%;
+  font-size: 9vw;
   font-style:Helvetica Condensed;
   color: gray;
-  @media ${device.mobileL} {
-    max-width: 425px;
-    white-space: nowrap;
+  @media ${device.mobileM} {
+    font-size:4vw;
+    margin-top: -1%;
    }
-`
+`;
 
  
   const Box0 = styled.div`
@@ -98,11 +98,11 @@ flex-direction: row-reverse;
 position: relative;
 margin-left: auto;
 margin-right: -18px;
-margin-top: -155px;
+margin-top: -145px;
 padding: 20px;
 width: 30%;
-@media ${device.mobileL} {
-  max-width: 425px;
+@media ${device.mobileM} {
+  max-width: 375px;
   white-space: nowrap;
  }
 `
