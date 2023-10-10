@@ -24,7 +24,7 @@ const H1 = styled.div`
 const mobileMediaBox1 = css`
 padding: 10px; 
     
-    margin-top: 10px; 
+    margin-top: -77px; 
 
 `
 const Box1 = styled.div`
@@ -35,7 +35,7 @@ const Box1 = styled.div`
   flex-direction: column;
   align-items: flex-start; 
   font-size: 2em;
-  margin-top: 20px; 
+  margin-top: -77px;
 ${mobileMediaBox1};
  
 `;
@@ -69,7 +69,7 @@ const Box2 = styled.div`
 const Image = styled.img`
   display: flex;
   flex-direction: row-reverse;
-  position: relative;
+  position: absolute;
   margin-left: auto;
   margin-right: -18px;
   margin-top: -155px;
@@ -89,7 +89,7 @@ function Header() {
       <HeaderWrapper>
      <H1>NBA.com/Stats</H1>
      </HeaderWrapper>
-     <Image src={myHeaderImg} />
+     {/*<Image src={myHeaderImg} />*/}
      <Box1>
       League Leaders
      </Box1>
