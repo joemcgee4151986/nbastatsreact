@@ -1,40 +1,53 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import myHeaderImg from '../../assets/Headerimage.JPG'
+import { device } from '../Devices/Devices.jsx'
 
-
-const device = {
-  mobileS: "320px",
-  mobileM: "480px",
-  mobileL: "640px",
-  tablet: "768px",
-  laptop: "1024px",
-  desktop: "1280px",
-};
-
+const mobileMediaQuery = css`
+@media (max-width: 768px) {
+  padding-top: 10px;
+  margin-top: 10px; 
+  
+}
+`
 
 const H1 = styled.div`
   display: flex;
   flex-shrink: 0;
-  position: static;
+  position: relative; 
   font-size: 6em;
   padding: 20px;
-
-  @media ${device.mobileL} {
-    padding-top: 10px;
-  }
+  margin-top: 20px; 
+  ${mobileMediaQuery};
 `;
 
+const mobileMediaBox1 = css`
+padding: 10px; 
+    
+    margin-top: 10px; 
+
+`
 const Box1 = styled.div`
   background-color: blue;
   color: white;
-  padding-right: 0;
-  padding-left: 0;
+  padding: 20px; 
   display: flex;
   flex-direction: column;
-  align-items: left;
-  font-size: 200%;
+  align-items: flex-start; 
+  font-size: 2em;
+  margin-top: 20px; 
+${mobileMediaBox1};
+ 
 `;
+const HeaderWrapper = styled.div`
+  margin-bottom: 50px; 
+`;
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: left; 
+`;
+
 
 const Box2 = styled.div`
   display: inline-flex;
@@ -72,13 +85,15 @@ const Image = styled.img`
 function Header() {
   return(
     <div>
-      
+      <Container>
+      <HeaderWrapper>
      <H1>NBA.com/Stats</H1>
-   
+     </HeaderWrapper>
      <Image src={myHeaderImg} />
      <Box1>
       League Leaders
      </Box1>
+     </Container>
      <Box2>
     
       Points Per Game
