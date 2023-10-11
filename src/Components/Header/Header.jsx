@@ -5,19 +5,21 @@ import { device } from '../Devices/Devices.jsx'
 
 const mobileMediaQuery = css`
 @media (max-width: 768px) {
-  padding-top: 10px;
-  margin-top: 10px; 
+  
+ 
   
 }
 `
 
 const H1 = styled.div`
-  display: flex;
+display: flex;
   flex-shrink: 0;
   position: relative; 
   font-size: 6em;
   padding: 20px;
-  margin-top: 20px; 
+  margin-top: 20px;
+  color:black;
+  margin-bottom: 42px;
   ${mobileMediaQuery};
 `;
 
@@ -26,7 +28,25 @@ padding: 10px;
     
     margin-top: -77px; 
 
+`;
+
+const mobileMediaBox0 = css`
+  font-size: 16px;
 `
+const Box0 = styled.div`
+
+background-color:yellow;
+word-wrap: break-word;
+padding-right: 0;
+padding-left: 0;
+display: flex;
+flex-direction: column;
+align-items: left;
+font-size: 200%;
+max-width:60%;
+  ${mobileMediaBox0};
+`;
+
 const Box1 = styled.div`
   background-color: blue;
   color: white;
@@ -35,7 +55,7 @@ const Box1 = styled.div`
   flex-direction: column;
   align-items: flex-start; 
   font-size: 2em;
-  margin-top: -77px;
+  margin-bottom: -5px;
 ${mobileMediaBox1};
  
 `;
@@ -86,9 +106,9 @@ function Header() {
   return(
     <div>
       <Container>
-      <HeaderWrapper>
+      <Box0>
      <H1>NBA.com/Stats</H1>
-     </HeaderWrapper>
+     </Box0>
      {/*<Image src={myHeaderImg} />*/}
      <Box1>
       League Leaders
