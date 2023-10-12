@@ -3,6 +3,18 @@ import styled, { css } from 'styled-components'
 import myHeaderImg from '../../assets/Headerimage.JPG'
 import { device } from '../Devices/Devices.jsx'
 
+const HTML = styled.html`
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+`;
+
+const BODY = styled.body`
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+`;
+
 const mobileMediaQuery = css`
 @media (max-width: 768px) {
   
@@ -104,6 +116,8 @@ const Image = styled.img`
 
 function Header() {
   return(
+    <HTML>
+      <BODY>
     <div>
       <Container>
       <Box0>
@@ -131,6 +145,8 @@ function Header() {
   
   
 </div>
+</BODY>
+</HTML>
   );
 }
 
