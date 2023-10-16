@@ -97,7 +97,7 @@ const Box2 = styled.div`
 const mobileImage = css`
 @media (max-width: 768px){
   display:flex;
-  max-width: 100%;
+  min-width: 100%;
   max-height: 100%;
   padding-bottom: 4.25rem;
   margin:0;
