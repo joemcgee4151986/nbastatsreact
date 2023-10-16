@@ -17,9 +17,7 @@ const BODY = styled.body`
 
 const mobileMediaQuery = css`
 @media (max-width: 768px) {
-    font-size: 30px;
-    margin-bottom: 67px;
-    margin-top: -19px;
+  display: none;
   }
   
 }
@@ -38,15 +36,11 @@ width: 50;
   ${mobileMediaQuery};
 `;
 
-const mobileMediaBox1 = css`
-padding: 10px; 
-    
-    margin-top: -77px; 
-
-`;
 
 const mobileMediaBox0 = css`
-  font-size: 16px;
+@media (max-width: 768px) {
+width:100%;
+}
 `
 const Box0 = styled.div`
 display: flex;
@@ -58,6 +52,10 @@ width:70%;
   ${mobileMediaBox0};
 `;
 
+const mobileMediaBox1 = css`
+padding: 10px; 
+margin-top: -77px; 
+`;
 
 const Box1 = styled.div`
   background-color: blue;
@@ -98,7 +96,11 @@ const Box2 = styled.div`
 `;
 const mobileImage = css`
 @media (max-width: 768px){
-height: 60px;
+  display:flex;
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 4.25rem;
+  margin:0;
 }
 `
 const Image= styled.img `
