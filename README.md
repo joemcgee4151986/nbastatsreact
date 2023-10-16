@@ -1,8 +1,9 @@
 # NBA Stats recreation page project
-  <h2>Overview</h2>
- This app was created to help develop my programming skills. Instead of relying on Youtube videos, I am recreating a website by just looking at a image. It's very hard but I feel it's also very rewarding.
-
+# Overview
+ This app was created to help develop my programming skills. Instead of relying on Youtube videos, I am recreating a website by just looking at a image. It's very hard but I feel it's also very rewarding.<br />
+<br />
   Live Link: <a href = "https://nbastatstemplate.netlify.app/"> Click Here</a>
+  
 # Features
   <h2>Coming Soon!</h2>
 
