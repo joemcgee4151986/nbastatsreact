@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from 'styled-components'
 import player1 from '../../assets/Hardenpic.jpeg'
-
+import Curry from '../../assets/Curry.JPG'
+import Andre from '../../assets/Andre.JPG'
+import Rajon from '../../assets/Rajon.JPG'
+import Russel from '../../assets/Russel.JPG'
 const Text = styled.p`
 margin-top: 0;
 `
@@ -11,13 +14,53 @@ display: flex;
 `
 const Box3 = styled.div`
 display: inline-flex;
+background-repeat: no-repeat;
 position: relative;
 min-width: 25%;
 min-height:165px;
 font-size: 1.5em;
 text-align:center;
 color: white;
-background-color:GREY;
+background-image:  url(${Curry});
+outline: solid 1px white;
+font: Helvetica;
+`
+const Box3a = styled.div`
+display: inline-flex;
+background-repeat: no-repeat;
+position: relative;
+min-width: 25%;
+min-height:165px;
+font-size: 1.5em;
+text-align:center;
+color: white;
+background-image:  url(${Andre});
+outline: solid 1px white;
+font: Helvetica;
+`
+const Box3b = styled.div`
+display: inline-flex;
+background-repeat: no-repeat;
+position: relative;
+min-width: 25%;
+min-height:165px;
+font-size: 1.5em;
+text-align:center;
+color: white;
+background-image:  url(${Rajon});
+outline: solid 1px white;
+font: Helvetica;
+`
+const Box3c = styled.div`
+display: inline-flex;
+background-repeat: no-repeat;
+position: relative;
+min-width: 25%;
+min-height:165px;
+font-size: 1.5em;
+text-align:center;
+color: white;
+background-image:  url(${Russel});
 outline: solid 1px white;
 font: Helvetica;
 `
@@ -107,13 +150,14 @@ const H1 = styled.h1`
 
 function BodyPage(){
     return(
+      
     <div>
         
   
      <Box3></Box3> 
-     <Box3></Box3> 
-     <Box3></Box3> 
-     <Box3></Box3> 
+     <Box3a></Box3a> 
+     <Box3b></Box3b> 
+     <Box3c></Box3c> 
      <Container>
      <Box4><Text>2</Text></Box4>
      <Box5></Box5>

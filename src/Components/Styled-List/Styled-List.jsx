@@ -11,6 +11,7 @@ display: flex;
 width: 50;
   flex-shrink: 0;
   font-size: 6em;
+  font-style:core-sans-d;
   padding: 20px;
   margin-top: -19px;
   color:black;
@@ -23,6 +24,10 @@ width: 50;
 export const H4 = styled.h4`
 display: block; 
 margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+
+
 `
 
 export const BODY = styled.body`
@@ -56,7 +61,7 @@ export const Box1 = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  font-size: 2.2em;
+  font-size: 2.8em;
   margin-bottom: -5px;
 ${mobileMediaBox1};
  
