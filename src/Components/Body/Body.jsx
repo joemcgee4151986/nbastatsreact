@@ -1,23 +1,23 @@
 import React from 'react';
 import {Container, Text, Box3, Box3a, Box3b, Box3c,Box4, Box5,Box6, Box7,Box8, H1} from '../Styled-List/Styled-Body.jsx'
 
+const BodyPage = () =>{
+    const counter = 1
 
-let counter = 1
-function BodyPage(){
     return(
       
     <div>
         
   
-     <Box3></Box3> 
-     <Box3a></Box3a> 
-     <Box3b></Box3b> 
-     <Box3c></Box3c> 
+     <Box3 /> 
+     <Box3a />
+     <Box3b />
+     <Box3c />
      <Container>
      <Box4><Text>{counter + 1}</Text></Box4>
-     <Box5></Box5>
-     <Box6></Box6>
-     <Box8></Box8>
+     <Box5 />
+     <Box6 />
+     <Box8 />
      <Box4><Text>{counter + 5}</Text></Box4>
      <Box5></Box5>
      <Box6></Box6>
@@ -53,5 +53,5 @@ function BodyPage(){
     
      </div>
     )
-}
+    }
 export default BodyPage

@@ -1,8 +1,12 @@
 import React from 'react';
 import myHeaderImg from '../../assets/Headerimage.JPG'
-import { Div, H1, H4, Box0, Box1, Container, Box2,Image } from '../Styled-List/Styled-List.jsx'
+import { Div, H1, H4, Text,TextTwo, Box0, Box1, Container, Box2,Image } from '../Styled-List/Styled-Header.jsx'
 
-function Header() {
+const Header = () =>{
+  const text = [{name :  'PPG'},
+  { name: 'Points Per Game' },
+  {name: 'League Leaders'},
+]
   return(
     <Div>
       <Container>
@@ -16,12 +20,13 @@ function Header() {
     
     
      <Box1>
-      League Leaders
+      {text[2].name}
      </Box1>
      </Container>
      <Box2>
     
-      <H4>Points Per Game</H4>
+      <Text>{text[0].name}</Text>
+      <TextTwo>{text[1].name}</TextTwo>
      </Box2>
      <Box2>
      <H4>Rebounds Per Game</H4>
@@ -34,7 +39,7 @@ function Header() {
      </Box2>
      </Div>
   );
-}
+  }
 
 export default Header
 
