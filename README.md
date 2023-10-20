@@ -1,4 +1,4 @@
-# NBA Stats recreation page project
+# NBA Stats Recreation Page Project
 # Overview
  This app was created to help develop my programming skills. Instead of relying on Youtube videos, I am recreating a website by trial and error. It's very hard but I feel it's also very rewarding.<br />
 <br />
