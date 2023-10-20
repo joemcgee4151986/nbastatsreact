@@ -6,7 +6,7 @@ export const Div = styled.div`
   overflow: hidden;
 `;
 
-export const H1 = styled.h1`
+export const TextNBA = styled.h1`
 display: flex;
 width: 50;
   flex-shrink: 0;
@@ -46,6 +46,79 @@ font-style:core-sans-d;
 font-size:2em;
 }
 `
+export const TextThree = styled.div`
+display: none;
+font-style:core-sans-d;
+font-size:2em;
+@media (max-width: 768px) {
+  
+  display: block; 
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+}
+`
+
+export const TextFour = styled.div`
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+@media (max-width: 768px) {
+  display: none;
+
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+}
+`
+export const TextFive = styled.div`
+display: none;
+font-style:core-sans-d;
+font-size:2em;
+@media (max-width: 768px) {
+  
+  display: block; 
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+}
+`
+export const TextSix = styled.div`
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+@media (max-width: 768px) {
+  display: none;
+
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+}
+`
+export const TextSeven = styled.div`
+display: none;
+font-style:core-sans-d;
+font-size:2em;
+@media (max-width: 768px) {
+  display: block; 
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+}
+`
+
+export const TextEight = styled.div`
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+@media (max-width: 768px) {
+  display: none;
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+}
+`
+
 export const H4 = styled.h4`
 
 display: block; 
@@ -58,16 +131,11 @@ font-size:2em;
   }
 
 `
-
-
-
 export const BODY = styled.body`
   margin: 0;
   height: 100%;
   overflow: hidden;
 `;
-
-
 export const Box0 = styled.div`
 display: flex;
 flex-direction: row;
@@ -103,8 +171,6 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: left; 
 `;
-
-
 
 export const Box2 = styled.div`
   display: inline-flex;

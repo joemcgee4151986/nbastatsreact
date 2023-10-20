@@ -7,8 +7,6 @@ const BodyPage = () =>{
     return(
       
     <div>
-        
-  
      <Box3 /> 
      <Box3a />
      <Box3b />
