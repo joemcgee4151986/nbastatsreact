@@ -21,14 +21,45 @@ width: 50;
     }
     
 `;
+export const Text = styled.div`
+display: none;
+font-style:core-sans-d;
+font-size:2em;
+@media (max-width: 768px) {
+  
+  display: block; 
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+}
+`
+
+export const TextTwo = styled.div`
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+@media (max-width: 768px) {
+  display: none;
+
+margin: auto;
+font-style:core-sans-d;
+font-size:2em;
+}
+`
 export const H4 = styled.h4`
+
 display: block; 
 margin: auto;
 font-style:core-sans-d;
 font-size:2em;
+@media screen and (max-width: 768px) {
+  display: visible;
 
+  }
 
 `
+
+
 
 export const BODY = styled.body`
   margin: 0;
