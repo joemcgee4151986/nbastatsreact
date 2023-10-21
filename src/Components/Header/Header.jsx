@@ -1,108 +1,46 @@
 import React from 'react';
-import styled from 'styled-components'
 import myHeaderImg from '../../assets/Headerimage.JPG'
+import { Div, TextNBA, Text,TextTwo,TextThree,TextFour,TextFive,TextSix, TextSeven,TextEight, Box0, Box1, Container, Box2,Image } from '../Styled-List/Styled-Header.jsx'
 
-
-
-const H1 = styled.h1`
-  margin-top: -10px;
-  font-size: 80px;
-  font-style:Helvetica Condensed;
-  color: gray;
-`
-
- 
-  const Box0 = styled.div`
-  display: flex;
-flex-direction: column;
-max-width: 100%;
-line-height: 115%;
- 
-  padding: 35px;
- background-color: white;
-
-  
-
- 
-  `
-
-const Box1 = styled.div`
-display: flex;
-flex-direction: column; 
-
-  max-width: 100%;
-  height: 5vh;
-  padding: 20px;
-  margin-top: -15px;
-  background-color: #0039a6;
-  font-size: 2em;
-  color: white;
-  font: Helvetica;
-`
-const Box2 = styled.div`
-display: inline-flex;
-position: relative;
-min-width: 25%;
-font-size: 1.5em;
-text-align:center;
-color: white;
-background-color:GREY;
-outline: solid 1px white;
-font: Helvetica;
-
-`
-const Box3 = styled.div`
-display: inline-flex;
-position: relative;
-min-width: 25%;
-font-size: 1.5em;
-text-align:center;
-color: white;
-background-color:GREY;
-outline: solid 1px white;
-font: Helvetica;
-`
-
-
-
-const Image = styled.img`
-display: flex;
-flex-direction: row-reverse;
-position: relative;
-margin-left: auto;
-margin-right: -18px;
-margin-top: -155px;
-padding: 20px;
-width: 30%;
-`
-
-function Header() {
+const Header = () =>{
+  const text = [{name :  'PPG'},
+  { name: 'Points Per Game' },
+  {name: 'League Leaders'},
+  {name: 'RPG'},
+  {name: 'Rebounds Per Game'},
+  {name: 'APG'},
+  {name: 'Assists Per Game'},
+  {name: 'SPG'},
+  {name: 'Steals Per Game'},
+  {name: 'NBA.com/Stats'}
+]
   return(
-    <div>
-     <Box0><H1>NBA.com/Stats</H1></Box0>
-     <Image src={myHeaderImg} />
-     <Box1>
-      League Leaders
-     </Box1>
-     <Box2>
-    
-      Points Per Game
-     
+    <Div>
+      <Container>
+      <Box0>
+     <TextNBA>{text[9].name}</TextNBA>
+     <Image src = {myHeaderImg}  />
+     </Box0>
+     <Box1>{text[2].name}</Box1>
+     </Container>
+     <Box2><Text>{text[0].name}</Text>
+      <TextTwo>{text[1].name}</TextTwo>
      </Box2>
      <Box2>
-      Points Per Game
+     <TextThree>{text[3].name}</TextThree>
+     <TextFour>{text[4].name}</TextFour>
      </Box2>
      <Box2>
-      Assists Per Game
+     <TextFive>{text[5].name}</TextFive>
+     <TextSix>{text[6].name}</TextSix>
      </Box2>
      <Box2>
-      Steals Per Game
+     <TextSeven>{text[7].name}</TextSeven>
+     <TextEight>{text[8].name}</TextEight>
      </Box2>
-  
-  
-</div>
+     </Div>
   );
-}
+  }
 
 export default Header
 
