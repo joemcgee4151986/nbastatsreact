@@ -3,8 +3,8 @@ import myHeaderImg from '../../assets/Headerimage.JPG'
 import { Div, TextNBA, Text,TextTwo,TextThree,TextFour,TextFive,TextSix, TextSeven,TextEight, Box0, Box1, Container, Box2,Image } from '../Styled-List/Styled-Header.jsx'
 
 const Header = () =>{
-  const text = [{name :  'PPG'},
-  { name: 'Points Per Game' },
+  const text = [{name : 'PPG'},
+  {name: 'Points Per Game' },
   {name: 'League Leaders'},
   {name: 'RPG'},
   {name: 'Rebounds Per Game'},

@@ -16,10 +16,12 @@ width: 50;
   margin-top: -19px;
   color:black;
   margin-bottom: 67px;
-  @media (max-width: 768px) {
-    display: none;
+  @media (max-width: 600px) {
+    font-size: 3em;
     }
-    
+    @media (max-width: 320px) {
+      font-size: 1.8em;
+      }
 `;
 export const Text = styled.div`
 display: none;
@@ -190,17 +192,18 @@ export const Box2 = styled.div`
     `
 
 export const Image= styled.img `
-margin-left: 47.5%;
+margin-left: 41.5%;
   display: block;
   height: 120px;
 background-repeat: no-repeat;
 background-size: contain;
 @media (max-width: 768px){
-    display:flex;
+    display:none;
     min-width: 100%;
     max-height: 100%;
     padding-bottom: 4.25rem;
     margin:0;
+}
 `
 
 
