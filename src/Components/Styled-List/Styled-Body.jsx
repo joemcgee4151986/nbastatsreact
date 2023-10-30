@@ -91,8 +91,8 @@ flex-direction: row;
 outline: solid 1px white;
 width: 2%; 
 height:10%;
-
-
+font-size:2em;
+background: #CDCDCD;
 padding-bottom: 3%;
 
 justify-content: center;
@@ -157,9 +157,10 @@ flex-direction: column;
 outline: solid 1px white;
 width: 2%; 
 height:10%;
-
+font-size:2em;
 padding-bottom: 3%;
-
+color:gray;
+background:#CDCDCD;
 justify-content: center;
 `
 export const Box8 = styled.div`
