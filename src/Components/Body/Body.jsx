@@ -16,8 +16,8 @@ const BodyPage = () =>{
      <Container>
      <Box4><Text>{counter + 1}</Text></Box4>
      <Box5 />
-     <Box6><p className = "playerOne">James<br /> Harden<br/> 13 G / Hou<br/></p></Box6>
-     <Box8><p className = "Number">8</p></Box8>
+     <Box6><p className = "playerOne">James<br /> Harden<br/></p><p className="numberLocation"> 13 G / Hou<br/></p></Box6>
+     <Box8><p className = "Number">28.0</p></Box8>
      <Box4><Text>{counter + 5}</Text></Box4>
      <Box5></Box5>
      <Box6>42.5</Box6>
@@ -25,8 +25,8 @@ const BodyPage = () =>{
      <Container>
      <Box7><Text>{counter + 2}</Text></Box7>
      <Box5></Box5>
-     <Box6></Box6>
-     <Box8>Hello</Box8>
+     <Box6><p className = "playerOne">Kevin<br /> Durant<br/></p><p className="numberLocation"> 35 F / OKC<br/></p></Box6>
+     <Box8><p className = "Number">27.8</p></Box8>
      <Box7><Text>{counter + 6}</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
@@ -35,7 +35,7 @@ const BodyPage = () =>{
      <Box7><Text>{counter + 3}</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
-     <Box8></Box8>
+     <Box8><p className = "Number">26.8</p></Box8>
      <Box7><Text>{counter + 7}</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
@@ -44,11 +44,11 @@ const BodyPage = () =>{
      <Box7><Text>{counter + 4}</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
-     <Box8></Box8>
+     <Box8><p className = "Number">25.0</p></Box8>
      <Box7><Text>{counter + 8}</Text></Box7>
      <Box5></Box5>
      <Box6></Box6>
-     <Box8></Box8>
+     <Box8><p className = "Number">11.0</p></Box8>
      </Container>
     
      </div>

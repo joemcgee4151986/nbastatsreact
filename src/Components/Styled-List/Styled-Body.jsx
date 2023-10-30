@@ -25,7 +25,7 @@ display: inline-flex;
 background-repeat: no-repeat;
 position: relative;
 min-width: 25%;
-min-height:165px;
+min-height:209px;
 
 
 color: white;
@@ -46,7 +46,7 @@ display: inline-flex;
 background-repeat: no-repeat;
 position: relative;
 min-width: 25%;
-min-height:165px;
+min-height:209px;
 
 text-align:center;
 color: white;
@@ -60,7 +60,7 @@ display: inline-flex;
 background-repeat: no-repeat;
 position: relative;
 min-width: 25%;
-min-height:165px;
+min-height:209px;
 
 text-align:center;
 color: white;
@@ -74,7 +74,7 @@ display: inline-flex;
 background-repeat: no-repeat;
 position: relative;
 min-width: 25%;
-min-height:165px;
+min-height:209px;
 
 text-align:center;
 color: white;
@@ -92,6 +92,7 @@ outline: solid 1px white;
 width: 2%; 
 height:10%;
 
+
 padding-bottom: 3%;
 
 justify-content: center;
@@ -105,6 +106,7 @@ flex-direction: row;
 outline: solid 1px white;
 width: 5%; 
 height:10%;
+
 padding-top: 5%;
 align-items: center;
 justify-content: center;
@@ -117,12 +119,15 @@ position: relative;
 flex-direction: row; 
 outline: solid 1px white;
 width: 15%; 
-height:10px;
+height:52px;
 padding-top: 3%;
 align-items: center;
 justify-content: center;
-
+left: 1%;
 p.playerOne{
+  display: flex;
+ 
+  width: 50;
   margin-top: -19%;
   font-size: 19px;
 color:Blue;
@@ -130,6 +135,15 @@ word-wrap: break-word;
 .break{
   line-height: 1;
 }
+p.numberLocation{
+  color:gray;
+}
+
+@media (max-width: 600px) {
+  display:flex;
+  flex-shrink: 0;
+  margin: auto;
+  }
 
 `
 
@@ -156,11 +170,15 @@ position: relative;
 color: gray;
 flex-direction: column; 
 outline: solid 1px white;
-width: 2%; 
-height:.6em;
-
+width: 3%; 
+height:2.2em;
+font-size:1.5em;
 padding-bottom: 3%;
 
 justify-content: center;
+
+p.Number{
+  color:black;
+}
 }
 `
