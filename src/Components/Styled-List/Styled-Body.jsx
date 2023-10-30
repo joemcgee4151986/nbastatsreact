@@ -26,12 +26,18 @@ background-repeat: no-repeat;
 position: relative;
 min-width: 25%;
 min-height:165px;
-font-size: 1.5em;
-text-align:center;
+
+
 color: white;
 background-image:  url(${Curry});
+
 outline: solid 1px white;
-font: Helvetica;
+@media (max-width: 768px){
+
+ 
+  
+ 
+  }
 `
 
 
@@ -41,7 +47,7 @@ background-repeat: no-repeat;
 position: relative;
 min-width: 25%;
 min-height:165px;
-font-size: 1.5em;
+
 text-align:center;
 color: white;
 background-image:  url(${Andre});
@@ -55,7 +61,7 @@ background-repeat: no-repeat;
 position: relative;
 min-width: 25%;
 min-height:165px;
-font-size: 1.5em;
+
 text-align:center;
 color: white;
 background-image:  url(${Rajon});
@@ -69,12 +75,11 @@ background-repeat: no-repeat;
 position: relative;
 min-width: 25%;
 min-height:165px;
-font-size: 1.5em;
+
 text-align:center;
 color: white;
 background-image:  url(${Russel});
 outline: solid 1px white;
-font: Helvetica;
 `
 export const Box4 = styled.div`
 
@@ -108,7 +113,7 @@ background-size: cover;
 `
 export const Box6 = styled.div`
 position: relative;
-background-color: gray;
+
 flex-direction: row; 
 outline: solid 1px white;
 width: 15%; 
@@ -117,6 +122,15 @@ padding-top: 3%;
 align-items: center;
 justify-content: center;
 
+p.playerOne{
+  margin-top: -19%;
+  font-size: 19px;
+color:Blue;
+word-wrap: break-word; 
+.break{
+  line-height: 1;
+}
+
 `
 
 export const Box7 = styled.div`
@@ -124,7 +138,7 @@ display:flex;
 align-items: flex-start;
 position: relative;
 background-color: white;
-color: gray;
+
 flex-direction: column; 
 outline: solid 1px white;
 width: 2%; 
@@ -138,7 +152,7 @@ export const Box8 = styled.div`
 display:flex;
 align-items: flex-start;
 position: relative;
-background-color: gray;
+
 color: gray;
 flex-direction: column; 
 outline: solid 1px white;
@@ -148,4 +162,5 @@ height:.6em;
 padding-bottom: 3%;
 
 justify-content: center;
+}
 `

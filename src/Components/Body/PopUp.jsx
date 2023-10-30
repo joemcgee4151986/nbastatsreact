@@ -1,0 +1,55 @@
+import React, { useState } from 'react';
+import Curry from '../../assets/Curry.JPG';
+import styled from 'styled-components';
+
+const Popup = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const PopupContent = styled.div`
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+`;
+
+const PopupImage = styled.img`
+  max-width: 100%;
+  max-height: 80vh;
+`;
+
+const CloseButton = styled.button`
+  margin-top: 10px;
+`;
+
+const ImagePopup = () => {
+  const [popupOpen, setPopupOpen] = useState(false);
+
+  const togglePopup = () => {
+    setPopupOpen(!popupOpen);
+  }
+
+  return (
+    <div>
+      <div className="Image" onClick={togglePopup} style={{ backgroundImage: `url(${Curry})` }} />
+      
+      {popupOpen && (
+        <Popup>
+          <PopupContent>
+            <PopupImage src={Curry} alt="Curry" />
+            <CloseButton onClick={togglePopup}>Close Popup</CloseButton>
+          </PopupContent>
+        </Popup>
+      )}
+    </div>
+  );
+}
+
+export default ImagePopup;
