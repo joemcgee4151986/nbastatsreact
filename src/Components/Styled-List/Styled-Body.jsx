@@ -4,6 +4,7 @@ import Andre from '../../assets/Andre.JPG'
 import Rajon from '../../assets/Rajon.JPG'
 import Russel from '../../assets/Russel.JPG'
 import player1 from '../../assets/Hardenpic.jpeg'
+import player2 from '../../assets/Durant.jpg'
 
 export const Text = styled.p`
 margin-top: 0;
