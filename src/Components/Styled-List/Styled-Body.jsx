@@ -114,6 +114,21 @@ justify-content: center;
 background-image:  url(${player1});
 background-size: cover;
 `
+export const Box5a = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player2});
+background-size: cover;
+`
 export const Box6 = styled.div`
 position: relative;
 
@@ -182,5 +197,20 @@ justify-content: center;
 p.Number{
   color:black;
 }
+}
+`
+
+export const Image= styled.img `
+margin-left: 41.5%;
+  display: block;
+  height: 120px;
+background-repeat: no-repeat;
+background-size: contain;
+@media (max-width: 768px){
+    display:none;
+    min-width: 100%;
+    max-height: 100%;
+    padding-bottom: 4.25rem;
+    margin:0;
 }
 `

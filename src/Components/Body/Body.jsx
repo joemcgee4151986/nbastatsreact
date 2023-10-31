@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Text, Box3, Box3a, Box3b, Box3c,Box4, Box5,Box6, Box7,Box8} from '../Styled-List/Styled-Body.jsx'
+import {Container, Text, Box3, Box3a, Box3b, Box3c,Box4, Box5,Box5a,Box6, Box7,Box8} from '../Styled-List/Styled-Body.jsx'
 
 const BodyPage = () =>{
     const data = 
@@ -32,7 +32,7 @@ const BodyPage = () =>{
      <Box3c />
      <Container>
      <Box7><Text>{counter + 1}</Text></Box7>
-     <Box5 />
+     <Box5/>
      <Box6><p className = "playerOne">{data[0].firstName}<br />{data[1].lastName}<br/><br/></p><p className="numberLocation">{data[2].numberAndTeam}<br/></p></Box6>
      <Box8><p className = "Number">{data[3].points}</p></Box8>
      <Box7><Text>{counter + 1}</Text></Box7>
@@ -51,7 +51,7 @@ const BodyPage = () =>{
      </Container>
      <Container>
      <Box7><Text>{counter + 2}</Text></Box7>
-     <Box5></Box5>
+     <Box5a/>
      <Box6><p className = "playerOne">{data[16].firstName}<br />{data[17].lastName}<br/><br/></p><p className="numberLocation">{data[18].numberAndTeam}<br/></p></Box6>
      <Box8><p className = "Number">{data[19].points}</p></Box8>
      <Box7><Text>{counter + 2}</Text></Box7>
