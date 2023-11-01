@@ -5,6 +5,8 @@ import Rajon from '../../assets/Rajon.JPG'
 import Russel from '../../assets/Russel.JPG'
 import player1 from '../../assets/Hardenpic.jpeg'
 import player2 from '../../assets/Durant.jpg'
+import player3 from '../../assets/Demarcus.jpg'
+import player4 from '../../assets/LeBron.jpg'
 
 export const Text = styled.p`
 margin-top: 0;
@@ -129,6 +131,37 @@ justify-content: center;
 background-image:  url(${player2});
 background-size: cover;
 `
+export const Box5b = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player3});
+background-size: cover;
+`
+
+export const Box5c = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player4});
+background-size: cover;
+`
 export const Box6 = styled.div`
 position: relative;
 
@@ -167,7 +200,7 @@ export const Box7 = styled.div`
 display:flex;
 align-items: flex-start;
 position: relative;
-background-color: white;
+
 
 flex-direction: column; 
 outline: solid 1px white;
@@ -176,7 +209,7 @@ height:10%;
 font-size:2em;
 padding-bottom: 3%;
 color:gray;
-background:#CDCDCD;
+background:#F8F8F8;
 justify-content: center;
 `
 export const Box8 = styled.div`

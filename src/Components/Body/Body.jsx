@@ -1,24 +1,24 @@
 import React from 'react';
-import {Container, Text, Box3, Box3a, Box3b, Box3c,Box4, Box5,Box5a,Box6, Box7,Box8} from '../Styled-List/Styled-Body.jsx'
+import {Container, Text, Box3, Box3a, Box3b, Box3c,Box4, Box5,Box5a,Box5b,Box5c,Box6, Box7,Box8} from '../Styled-List/Styled-Body.jsx'
 
 const BodyPage = () =>{
     const data = 
-  /*0-3 */  [{firstName: 'James' },{lastName:"Harden"},{numberAndTeam:"13 G / HOU"},{points: 28.0},
- /*4-7 */    {firstName: 'DeAndre' },{lastName:"Jordan"},{numberAndTeam:"6 C / LAC"},{Rebounds: 14.0},
- /*8-11 */    {firstName: 'Russel' },{lastName:"Westbrook"},{numberAndTeam:"0 G / OKC"},{Assists: 10.0},
-  /*12-15 */   {firstName: 'Russel' },{lastName:"Westbrook"},{numberAndTeam:"0 G / OKC"},{Steals: 2.4},
-   /*16-19 */  {firstName: 'Kevin' },{lastName:"Durant"},{numberAndTeam:"35 F / OKC"},{points: 27.8},
-  /*20-23 */   {firstName: "Dwight" },{lastName:"Howard"},{numberAndTeam:"12 C / HOU"},{Rebounds: 12.0},
-   /*24-27 */  {firstName: "John" },{lastName:"Wall"},{numberAndTeam:"2 G / WAS"},{Assists: 9.9},
- /*28-31 */    {firstName: "Ricky" },{lastName:"Rubio"},{numberAndTeam:"9 G / MIN"},{Steals: 2.2},
- /*32-35 */  {firstName: 'DeMarcus' },{lastName:"Cousins"},{numberAndTeam:"15 C-F / SAC"},{points: 26.8},
- /*36-39 */{firstName: 'DeMarcus' },{lastName:"Cousins"},{numberAndTeam:"15 C-F / SAC"},{Rebounds: 11.1},
- /*40-43 */{firstName: "Chris" },{lastName:"Paul"},{numberAndTeam:"3 G / LAC"},{Assists: 9.4},
- /*44-47 */{firstName: "Chris" },{lastName:"Paul"},{numberAndTeam:"3 G / LAC"},{Steals: 2.2},
-  /*48-51*/{firstName: 'LeBron' },{lastName:"James"},{numberAndTeam:"23 F / CLE"},{points: 25.0},
-  /*52-55*/{firstName: 'Hassan' },{lastName:"Whiteside"},{numberAndTeam:"21 C / MIA"},{Rebounds: 11.0},
-   /*56-59 */{firstName: "Ricky" },{lastName:"Rubio"},{numberAndTeam:"9 G / MIN"},{Assists: 8.6},
- /*60-63 */{firstName: "Stephen" },{lastName:"Curry"},{numberAndTeam:"30 G / GSW"},{Steals: 2.1},
+   [{firstName: 'James' },{lastName:"Harden"},{numberAndTeam:"13 G / HOU"},{points: 28.0},
+    {firstName: 'DeAndre' },{lastName:"Jordan"},{numberAndTeam:"6 C / LAC"},{Rebounds: 14.0},
+     {firstName: 'Russel' },{lastName:"Westbrook"},{numberAndTeam:"0 G / OKC"},{Assists: 10.0},
+     {firstName: 'Russel' },{lastName:"Westbrook"},{numberAndTeam:"0 G / OKC"},{Steals: 2.4},
+     {firstName: 'Kevin' },{lastName:"Durant"},{numberAndTeam:"35 F / OKC"},{points: 27.8},
+     {firstName: "Dwight" },{lastName:"Howard"},{numberAndTeam:"12 C / HOU"},{Rebounds: 12.0},
+     {firstName: "John" },{lastName:"Wall"},{numberAndTeam:"2 G / WAS"},{Assists: 9.9},
+    {firstName: "Ricky" },{lastName:"Rubio"},{numberAndTeam:"9 G / MIN"},{Steals: 2.2},
+  {firstName: 'DeMarcus' },{lastName:"Cousins"},{numberAndTeam:"15 C-F / SAC"},{points: 26.8},
+{firstName: 'DeMarcus' },{lastName:"Cousins"},{numberAndTeam:"15 C-F / SAC"},{Rebounds: 11.1},
+ {firstName: "Chris" },{lastName:"Paul"},{numberAndTeam:"3 G / LAC"},{Assists: 9.4},
+{firstName: "Chris" },{lastName:"Paul"},{numberAndTeam:"3 G / LAC"},{Steals: 2.2},
+ {firstName: 'LeBron' },{lastName:"James"},{numberAndTeam:"23 F / CLE"},{points: 25.0},
+  {firstName: 'Hassan' },{lastName:"Whiteside"},{numberAndTeam:"21 C / MIA"},{Rebounds: 11.0},
+   {firstName: "Ricky" },{lastName:"Rubio"},{numberAndTeam:"9 G / MIN"},{Assists: 8.6},
+ {firstName: "Stephen" },{lastName:"Curry"},{numberAndTeam:"30 G / GSW"},{Steals: 2.1},
     ]
     const counter = 1
 
@@ -69,7 +69,7 @@ const BodyPage = () =>{
      </Container>
      <Container>
      <Box7><Text>{counter + 3}</Text></Box7>
-     <Box5></Box5>
+     <Box5b/>
      <Box6><p className = "playerOne">{data[32].firstName}<br />{data[33].lastName}<br/><br/></p><p className="numberLocation">{data[34].numberAndTeam}<br/></p></Box6>
      <Box8><p className = "Number">{data[35].points}</p></Box8>
      <Box7><Text>{counter + 3}</Text></Box7>
@@ -88,7 +88,7 @@ const BodyPage = () =>{
      </Container>
      <Container>
      <Box7><Text>{counter + 4}</Text></Box7>
-     <Box5/>
+     <Box5c/>
      <Box6><p className = "playerOne">{data[48].firstName}<br />{data[49].lastName}<br/><br/></p><p className="numberLocation">{data[50].numberAndTeam}<br/></p></Box6>
      <Box8><p className = "Number">{data[51].points}</p></Box8>
      <Box7><Text>{counter + 4}</Text></Box7>
