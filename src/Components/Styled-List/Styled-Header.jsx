@@ -11,10 +11,12 @@ display: flex;
 width: 50;
   flex-shrink: 0;
   font-size: 6em;
-  font-style:core-sans-d;
+  font-family: "Oswald",sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
   padding: 20px;
   margin-top: -19px;
-  color:black;
+  color: #57595b;
   margin-bottom: 67px;
   @media (max-width: 600px) {
     font-size: 3em;
@@ -40,6 +42,7 @@ export const TextTwo = styled.div`
 margin: auto;
 font-style:core-sans-d;
 font-size:2em;
+font-family: "Oswald",sans-serif;
 @media (max-width: 768px) {
   display: none;
 
