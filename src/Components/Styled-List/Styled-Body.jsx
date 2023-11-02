@@ -7,7 +7,14 @@ import player1 from '../../assets/Hardenpic.jpeg'
 import player2 from '../../assets/Durant.jpg'
 import player3 from '../../assets/DeMarcus.jpg'
 import player4 from '../../assets/LeBron.jpg'
-
+import player5 from '../../assets/DeAndre.png'
+import player6 from '../../assets/Dwight.jpg'
+import player7 from '../../assets/Hassan.jpg'
+import player8 from '../../assets/Russelw.png'
+import player9 from '../../assets/John.png'
+import player10 from '../../assets/Chris.png'
+import player11 from '../../assets/Ricky.png'
+import player12 from '../../assets/Steph.png'
 export const Text = styled.p`
 margin-top: 0;
 `
@@ -160,6 +167,133 @@ padding-top: 5%;
 align-items: center;
 justify-content: center;
 background-image:  url(${player4});
+background-size: cover;
+`
+
+export const Box5rebound = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player5});
+background-size: cover;
+`
+
+export const Box5reboundtwo = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player6});
+background-size: cover;
+`
+
+export const Box5reboundthree = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player7});
+background-size: cover;
+`
+export const Box5assist = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player8});
+background-size: cover;
+`
+
+export const Box5assisttwo = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player9});
+background-size: cover;
+`
+
+export const Box5assistthree = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player10});
+background-size: cover;
+`
+
+export const Box5assistfour = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player11});
+background-size: cover;
+`
+
+export const Box5steal = styled.div`
+display: inline-flex;
+position: relative;
+background-color: gray;
+flex-direction: row; 
+outline: solid 1px white;
+width: 5%; 
+height:10%;
+
+padding-top: 5%;
+align-items: center;
+justify-content: center;
+background-image:  url(${player12});
 background-size: cover;
 `
 export const Box6 = styled.div`

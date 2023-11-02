@@ -192,7 +192,7 @@ export const Box2 = styled.div`
     `
 
 export const Image= styled.img `
-margin-left: 41.5%;
+margin-left: 56.5%;
   display: block;
   height: 120px;
 background-repeat: no-repeat;
