@@ -186,11 +186,14 @@ export const Box2 = styled.div`
   color: white;
   outline: solid 1px white;
   @media (max-width: 768px) {
-    max-width: 25%;
+    width: 50%;
     white-space: nowrap;
     font-size: 12px;
     margin-left: auto;
     margin-right: 0;
+    }
+    @media (max-width: 320px) {
+    width: 100%;
     }
     `
 
@@ -207,6 +210,7 @@ background-size: contain;
     padding-bottom: 4.25rem;
     margin:0;
 }
+
 `
 
 

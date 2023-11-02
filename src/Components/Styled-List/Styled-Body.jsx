@@ -42,8 +42,13 @@ color: white;
 background-image:  url(${Curry});
 
 outline: solid 1px white;
-@media (max-width: 768px){
-
+@media (max-width: 430px) {
+  width: 100%;
+  }
+  @media (max-width: 768px) {
+    width: 50%;
+    }
+  
  
   
  
@@ -63,6 +68,10 @@ color: white;
 background-image:  url(${Andre});
 outline: solid 1px white;
 font: Helvetica;
+@media (max-width: 430px) {
+  width: 50%;
+  }
+
 `
 
 export const Box3b = styled.div`
