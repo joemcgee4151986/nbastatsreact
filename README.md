@@ -17,6 +17,7 @@
   <li><a href = "https://react.dev/">React</li>
   <li><a href = "https://eslint.org/">eslint</li>
   <li><a href = "https://yarnpkg.com/">yarn</li>
+  <li><a href = "https://prettier.io/">Prettier</li>
   <li>babel</li>
   <li>Webpack</li>
   <li>React-dom</li>
