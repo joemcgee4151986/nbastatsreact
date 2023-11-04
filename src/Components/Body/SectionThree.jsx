@@ -10,7 +10,6 @@ const {
   Box7,
   Box8,
 } = StyledBodyComponents;
-
 const counter = 1;
 export default function SectionTwo() {
   return (

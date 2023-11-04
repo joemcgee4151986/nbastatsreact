@@ -5,17 +5,14 @@ const {
   Container,
   Text,
   Box5,
-
   Box5rebound,
-
   Box5assist,
-
   Box6,
   Box7,
   Box8,
 } = StyledBodyComponents;
 const counter = 1;
-export default function Page() {
+export default function SectionOne() {
   return (
     <Container>
       <Box7>
