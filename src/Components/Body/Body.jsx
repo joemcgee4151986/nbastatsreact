@@ -44,5 +44,15 @@ export const PlayerData = [{
   assists: "10.0",
   steals: "2.4"
 },
+{
+  firstName: "Kevin",
+  lastName: "Durant" ,
+  playerNumber: "35 F",
+  team: "OKC",
+  points: "27.8",
+  Rebounds: "0",
+  assists: "0",
+  steals: "0"
+},
 ];
 export default BodyPage;
