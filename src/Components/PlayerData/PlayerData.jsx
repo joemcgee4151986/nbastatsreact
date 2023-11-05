@@ -19,18 +19,22 @@ const data = [
   { lastName: "Durant" },
   { numberAndTeam: "35 F / OKC" },
   { points: 27.8 },
+
   { firstName: "Dwight" },
   { lastName: "Howard" },
   { numberAndTeam: "12 C / HOU" },
   { Rebounds: 12.0 },
+
   { firstName: "John" },
   { lastName: "Wall" },
   { numberAndTeam: "2 G / WAS" },
   { Assists: 9.9 },
+
   { firstName: "Ricky" },
   { lastName: "Rubio" },
   { numberAndTeam: "9 G / MIN" },
   { Steals: 2.2 },
+  
   { firstName: "DeMarcus" },
   { lastName: "Cousins" },
   { numberAndTeam: "15 C-F / SAC" },

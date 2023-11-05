@@ -1,6 +1,5 @@
 import React from "react";
 import { PlayerData } from "./Body.jsx"
-import data from "../PlayerData/PlayerData.jsx";
 import * as StyledBodyComponents from "../Styled-List/Styled-Body.jsx";
 const {
   Container,
@@ -43,19 +42,19 @@ export default function SectionTwo() {
       <Box5reboundtwo />
       <Box6>
         <p className="playerOne">
-          {data[20].firstName}
+          {PlayerData[4].firstName}
           <br />
-          {data[21].lastName}
+          {PlayerData[4].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[22].numberAndTeam}
+        {PlayerData[4].playerNumber} / {PlayerData[4].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[23].Rebounds}</p>
+        <p className="Number">{PlayerData[4].Rebounds}</p>
       </Box8>
       <Box7>
         <Text>{counter + 2}</Text>
@@ -63,19 +62,19 @@ export default function SectionTwo() {
       <Box5assisttwo />
       <Box6>
         <p className="playerOne">
-          {data[24].firstName}
+          {PlayerData[5].firstName}
           <br />
-          {data[25].lastName}
+          {PlayerData[5].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[26].numberAndTeam}
+        {PlayerData[5].playerNumber} / {PlayerData[5].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[27].Assists}</p>
+        <p className="Number">{PlayerData[5].assists}</p>
       </Box8>
       <Box7>
         <Text>{counter + 2}</Text>
@@ -83,19 +82,19 @@ export default function SectionTwo() {
       <Box5assistfour />
       <Box6>
         <p className="playerOne">
-          {data[28].firstName}
+          {PlayerData[6].firstName}
           <br />
-          {data[29].lastName}
+          {PlayerData[6].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[30].numberAndTeam}
+        {PlayerData[6].playerNumber} / {PlayerData[6].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[31].Steals}</p>
+        <p className="Number">{PlayerData[6].steals}</p>
       </Box8>
     </Container>
   );
