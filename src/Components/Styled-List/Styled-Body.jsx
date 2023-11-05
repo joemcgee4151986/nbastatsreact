@@ -48,10 +48,6 @@ outline: solid 1px white;
   @media (max-width: 768px) {
     width: 50%;
     }
-  
- 
-  
- 
   }
 `;
 
@@ -333,7 +329,6 @@ p.numberLocation{
   flex-shrink: 0;
   margin: auto;
   }
-
 `;
 
 export const Box7 = styled.div`
