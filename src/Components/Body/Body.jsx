@@ -84,5 +84,25 @@ export const PlayerData = [{
   assists: "8.6",
   steals: "2.2"
 },
+{
+  firstName: "DeMarcus",
+  lastName: "Cousins" ,
+  playerNumber: "15 C-F",
+  team: "SAC",
+  points: "26.8",
+  Rebounds: "11.1",
+  assists: "0",
+  steals: "0"
+},
+{
+  firstName: "Chris",
+  lastName: "Paul" ,
+  playerNumber: "3 G",
+  team: "LAC",
+  points: "0",
+  Rebounds: "0",
+  assists: "9.4",
+  steals: "2.2"
+},
 ];
 export default BodyPage;
