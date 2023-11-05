@@ -33,5 +33,16 @@ export const PlayerData = [{
   Rebounds: "14.0",
   assists: "0",
   steals: "0",
-}]
+},
+{
+  firstName: "Russel",
+  lastName: "Westbrook" ,
+  playerNumber: "0 G",
+  team: "OKC",
+  points: "0",
+  Rebounds: "0",
+  assists: "10.0",
+  steals: "2.4"
+},
+];
 export default BodyPage;

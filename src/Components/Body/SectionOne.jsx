@@ -1,5 +1,4 @@
 import React from "react";
-import data from "../PlayerData/PlayerData.jsx";
 import { PlayerData } from "./Body.jsx"
 import * as StyledBodyComponents from "../Styled-List/Styled-Body.jsx";
 const {
@@ -62,19 +61,19 @@ export default function SectionOne() {
       <Box5assist />
       <Box6>
         <p className="playerOne">
-          {data[8].firstName}
+          {PlayerData[2].firstName}
           <br />
-          {data[9].lastName}
+          {PlayerData[2].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[10].numberAndTeam}
+          {PlayerData[2].playerNumber} / {PlayerData[2].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[11].Assists}</p>
+        <p className="Number">{PlayerData[2].assists}</p>
       </Box8>
       <Box7>
         <Text>{counter + 1}</Text>
@@ -82,19 +81,19 @@ export default function SectionOne() {
       <Box5assist />
       <Box6>
         <p className="playerOne">
-          {data[12].firstName}
+        {PlayerData[2].firstName}
           <br />
-          {data[13].lastName}
+          {PlayerData[2].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[14].numberAndTeam}
+        {PlayerData[2].playerNumber} / {PlayerData[2].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[15].Steals}</p>
+      <p className="Number">{PlayerData[2].steals}</p>
       </Box8>
     </Container>
   );
