@@ -300,14 +300,11 @@ export const Box5steal = styled.div`
 `;
 export const Box6 = styled.div`
 position: relative;
-
-flex-direction: row; 
 outline: solid 1px white;
-width: 15%; 
+width: 14%; 
 height:52px;
 padding-top: 3%;
-align-items: center;
-justify-content: center;
+
 left: 1%;
 p.playerOne{
   display: flex;
@@ -354,10 +351,10 @@ position: relative;
 color: gray;
 flex-direction: column; 
 outline: solid 1px white;
-width: 3%; 
+width: 4%; 
 height:2.2em;
 font-size:1.5em;
-padding-bottom: 3%;
+padding-left: 0%;
 
 justify-content: center;
 
