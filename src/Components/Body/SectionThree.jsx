@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../PlayerData/PlayerData.jsx";
+import { PlayerData } from "./Body.jsx"
 import * as StyledBodyComponents from "../Styled-List/Styled-Body.jsx";
 const {
   Container,
@@ -20,19 +20,19 @@ export default function SectionTwo() {
       <Box5b />
       <Box6>
         <p className="playerOne">
-          {data[32].firstName}
+          {PlayerData[7].firstName}
           <br />
-          {data[33].lastName}
+          {PlayerData[7].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[34].numberAndTeam}
+        {PlayerData[7].playerNumber} / {PlayerData[7].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[35].points}</p>
+        <p className="Number">{PlayerData[7].points}</p>
       </Box8>
       <Box7>
         <Text>{counter + 3}</Text>
@@ -40,19 +40,19 @@ export default function SectionTwo() {
       <Box5b />
       <Box6>
         <p className="playerOne">
-          {data[36].firstName}
+        {PlayerData[7].firstName}
           <br />
-          {data[37].lastName}
+          {PlayerData[7].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[38].numberAndTeam}
+        {PlayerData[7].playerNumber} / {PlayerData[7].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[39].Rebounds}</p>
+        <p className="Number">{PlayerData[7].Rebounds}</p>
       </Box8>
       <Box7>
         <Text>{counter + 3}</Text>
@@ -60,19 +60,19 @@ export default function SectionTwo() {
       <Box5assistthree />
       <Box6>
         <p className="playerOne">
-          {data[40].firstName}
+        {PlayerData[8].firstName}
           <br />
-          {data[41].lastName}
+          {PlayerData[8].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[42].numberAndTeam}
+        {PlayerData[8].playerNumber} / {PlayerData[8].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[43].Assists}</p>
+        <p className="Number">{PlayerData[8].assists}</p>
       </Box8>
       <Box7>
         <Text>{counter + 3}</Text>
@@ -80,19 +80,19 @@ export default function SectionTwo() {
       <Box5assistthree />
       <Box6>
         <p className="playerOne">
-          {data[44].firstName}
+        {PlayerData[8].firstName}
           <br />
-          {data[45].lastName}
+          {PlayerData[8].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[46].numberAndTeam}
+        {PlayerData[8].playerNumber} / {PlayerData[8].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[47].Steals}</p>
+        <p className="Number">{PlayerData[8].steals}</p>
       </Box8>
     </Container>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../PlayerData/PlayerData.jsx";
+import { PlayerData } from "./Body.jsx"
 import * as StyledBodyComponents from "../Styled-List/Styled-Body.jsx";
 const {
   Container,
@@ -22,19 +22,19 @@ export default function SectionFour() {
       <Box5c />
       <Box6>
         <p className="playerOne">
-          {data[48].firstName}
+          {PlayerData[9].firstName}
           <br />
-          {data[49].lastName}
+          {PlayerData[9].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[50].numberAndTeam}
+        {PlayerData[9].playerNumber} / {PlayerData[9].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[51].points}</p>
+        <p className="Number">{PlayerData[9].points}</p>
       </Box8>
       <Box7>
         <Text>{counter + 4}</Text>
@@ -42,19 +42,19 @@ export default function SectionFour() {
       <Box5reboundthree />
       <Box6>
         <p className="playerOne">
-          {data[52].firstName}
+        {PlayerData[10].firstName}
           <br />
-          {data[53].lastName}
+          {PlayerData[10].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[54].numberAndTeam}
+        {PlayerData[10].playerNumber} / {PlayerData[10].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[55].Rebounds}</p>
+        <p className="Number">{PlayerData[10].Rebounds}</p>
       </Box8>
       <Box7>
         <Text>{counter + 4}</Text>
@@ -62,19 +62,19 @@ export default function SectionFour() {
       <Box5assistfour />
       <Box6>
         <p className="playerOne">
-          {data[56].firstName}
+        {PlayerData[6].firstName}
           <br />
-          {data[57].lastName}
+          {PlayerData[6].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[58].numberAndTeam}
+        {PlayerData[6].playerNumber} / {PlayerData[6].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[59].Assists}</p>
+        <p className="Number">{PlayerData[6].assists}</p>
       </Box8>
       <Box7>
         <Text>{counter + 4}</Text>
@@ -82,19 +82,19 @@ export default function SectionFour() {
       <Box5steal />
       <Box6>
         <p className="playerOne">
-          {data[60].firstName}
+        {PlayerData[11].firstName}
           <br />
-          {data[61].lastName}
+          {PlayerData[11].lastName}
           <br />
           <br />
         </p>
         <p className="numberLocation">
-          {data[62].numberAndTeam}
+        {PlayerData[11].playerNumber} / {PlayerData[11].team}
           <br />
         </p>
       </Box6>
       <Box8>
-        <p className="Number">{data[63].Steals}</p>
+        <p className="Number">{PlayerData[11].steals}</p>
       </Box8>
     </Container>
   );
