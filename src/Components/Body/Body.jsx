@@ -1,5 +1,5 @@
 import React from "react";
-import * as StyledBodyComponents from "../Styled-List/Styled-Body.jsx";
+import * as StyledBodyComponents from "../Styled-List/Styled-Body";
 const { Box3, Box3a, Box3b, Box3c,} = StyledBodyComponents;
 
 const BodyPage = () => {

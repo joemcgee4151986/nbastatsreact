@@ -17,7 +17,7 @@ import {
   Container,
   Box2,
   Image,
-} from "../Styled-List/Styled-Header.jsx";
+} from "../Styled-List/Styled-Header";
 
 const Header = () => {
   return (

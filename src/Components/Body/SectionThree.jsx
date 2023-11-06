@@ -1,6 +1,6 @@
 import React from "react";
-import { PlayerData } from "./Body.jsx"
-import * as StyledBodyComponents from "../Styled-List/Styled-Body.jsx";
+import { PlayerData } from "./Body"
+import * as StyledBodyComponents from "../Styled-List/Styled-Body";
 const {
   Container,
   Text,
