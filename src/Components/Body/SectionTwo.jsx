@@ -1,5 +1,5 @@
 import React from "react";
-import { PlayerData } from "./Body.jsx"
+import { PlayerData } from "./Body.jsx";
 import * as StyledBodyComponents from "../Styled-List/Styled-Body";
 const {
   Container,
@@ -29,7 +29,7 @@ export default function SectionTwo() {
           <br />
         </p>
         <p className="numberLocation">
-        {PlayerData[3].playerNumber} / {PlayerData[3].team}
+          {PlayerData[3].playerNumber} / {PlayerData[3].team}
           <br />
         </p>
       </Box6>
@@ -49,7 +49,7 @@ export default function SectionTwo() {
           <br />
         </p>
         <p className="numberLocation">
-        {PlayerData[4].playerNumber} / {PlayerData[4].team}
+          {PlayerData[4].playerNumber} / {PlayerData[4].team}
           <br />
         </p>
       </Box6>
@@ -69,7 +69,7 @@ export default function SectionTwo() {
           <br />
         </p>
         <p className="numberLocation">
-        {PlayerData[5].playerNumber} / {PlayerData[5].team}
+          {PlayerData[5].playerNumber} / {PlayerData[5].team}
           <br />
         </p>
       </Box6>
@@ -89,7 +89,7 @@ export default function SectionTwo() {
           <br />
         </p>
         <p className="numberLocation">
-        {PlayerData[6].playerNumber} / {PlayerData[6].team}
+          {PlayerData[6].playerNumber} / {PlayerData[6].team}
           <br />
         </p>
       </Box6>

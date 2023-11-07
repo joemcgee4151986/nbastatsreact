@@ -63,7 +63,7 @@ export const Box3a = styled.div`
   background-image: url(${Andre});
   outline: solid 1px white;
   font: Helvetica;
-  @media (max-width: 430px) {
+  @media (max-width: 811px) {
     width: 50%;
   }
 `;
@@ -80,6 +80,9 @@ export const Box3b = styled.div`
   background-image: url(${Rajon});
   outline: solid 1px white;
   font: Helvetica;
+  @media (max-width: 811px) {
+   display:none;
+  }
 `;
 
 export const Box3c = styled.div`
@@ -93,6 +96,9 @@ export const Box3c = styled.div`
   color: white;
   background-image: url(${Russel});
   outline: solid 1px white;
+  @media (max-width: 768px) {
+    display:none;
+   }
 `;
 export const Box4 = styled.div`
   align-items: flex-start;

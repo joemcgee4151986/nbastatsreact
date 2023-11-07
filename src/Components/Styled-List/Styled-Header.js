@@ -77,8 +77,8 @@ export const TextFive = styled.div`
   display: none;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 768px) {
-    display: block;
+  @media (max-width: 811px) {
+    display: none;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -88,7 +88,7 @@ export const TextSix = styled.div`
   margin: auto;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 768px) {
+  @media (max-width: 811px) {
     display: none;
 
     margin: auto;
@@ -100,8 +100,8 @@ export const TextSeven = styled.div`
   display: none;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 768px) {
-    display: block;
+  @media (max-width: 811px) {
+    display: none;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -177,7 +177,7 @@ export const Box2 = styled.div`
   background-color: gray;
   color: white;
   outline: solid 1px white;
-  @media (max-width: 768px) {
+  @media (max-width: 811px) {
     width: 50%;
     white-space: nowrap;
     font-size: 12px;
