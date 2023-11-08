@@ -1,5 +1,5 @@
 import React from "react";
-import {Div,Box2,TextFive,TextSix,TextSeven,TextEight} from "../Styled-List/Styled-Header";
+import {Div,Box2,TextFive,TextSix,TextSeven,TextEight} from "../Styled-List/Styled-Footer";
 import text from "../HeaderData/text.jsx";
 
 const Footer =()=> {

@@ -88,7 +88,7 @@ export const TextSix = styled.div`
   margin: auto;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 811px) {
+  @media (max-width: 768px) {
     display: none;
 
     margin: auto;
@@ -100,7 +100,7 @@ export const TextSeven = styled.div`
   display: none;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 811px) {
+  @media (max-width: 768px) {
     display: none;
     margin: auto;
     font-style: core-sans-d;
