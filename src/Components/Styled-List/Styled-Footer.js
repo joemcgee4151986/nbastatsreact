@@ -29,8 +29,8 @@ export const TextFive = styled.div`
   display: none;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 811px) {
-    display: block;
+  @media (min-width: 600px) {
+    display: none;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -41,8 +41,8 @@ display:none;
   margin: auto;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 768px) {
-   
+  @media (min-width: 600px) {
+   display:block;
 
     margin: auto;
     font-style: core-sans-d;
@@ -53,8 +53,8 @@ export const TextSeven = styled.div`
   display: none;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 768px) {
-    display: none;
+  @media (min-width: 600px) {
+    display:none;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -66,7 +66,7 @@ display:none;
   margin: auto;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 768px) {
+  @media (min-width: 600px) {
    display:block;
     
     font-style: core-sans-d;

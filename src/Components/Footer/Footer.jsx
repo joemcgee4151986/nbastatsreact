@@ -13,6 +13,7 @@ return(
         <TextSeven>{text[7].name}</TextSeven>
         <TextEight>{text[8].name}</TextEight>
       </Box2>
+      
 </Div>
 );
 }
