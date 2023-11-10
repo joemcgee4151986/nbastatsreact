@@ -25,17 +25,7 @@ export const Box2 = styled.div`
 `;
 
 
-export const TextFive = styled.div`
-  display: none;
-  font-style: core-sans-d;
-  font-size: 2em;
-  @media (min-width: 600px) {
-    display: none;
-    margin: auto;
-    font-style: core-sans-d;
-    font-size: 2em;
-  }
-`;
+
 export const TextSix = styled.div`
 display:none;
   margin: auto;
@@ -49,24 +39,14 @@ display:none;
     font-size: 2em;
   }
 `;
-export const TextSeven = styled.div`
-  display: none;
-  font-style: core-sans-d;
-  font-size: 2em;
-  @media (min-width: 600px) {
-    display:none;
-    margin: auto;
-    font-style: core-sans-d;
-    font-size: 2em;
-  }
-`;
+
 
 export const TextEight = styled.div`
 display:none;
   margin: auto;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (min-width: 600px) {
+  @media (max-width: 320px) {
    display:block;
     
     font-style: core-sans-d;
