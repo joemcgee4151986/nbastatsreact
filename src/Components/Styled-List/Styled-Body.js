@@ -42,11 +42,16 @@ color: white;
 background-image:  url(${Curry});
 
 outline: solid 1px white;
-@media (max-width: 430px) {
+@media (max-width: 320px) {
+  display:block;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   }
   @media (max-width: 768px) {
-    width: 50%;
+    width: 100%;
+    display: block;
+  margin: 0 auto;
     }
   }
 `;

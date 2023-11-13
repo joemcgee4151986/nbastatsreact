@@ -4,7 +4,7 @@ import myHeaderImg from "../../assets/Headerimage.JPG";
 import {
   Div,
   TextNBA,
-  Text,
+  
   TextTwo,
   TextThree,
   TextFour,
@@ -30,12 +30,12 @@ const Header = () => {
         <Box1>{text[2].name}</Box1>
       </Container>
       <Box2>
-        <Text>{text[0].name}</Text>
+       {/* <Text>{text[0].name}</Text>*/}
         <TextTwo>{text[1].name}</TextTwo>
       </Box2>
       <Box2>
         <TextThree>{text[3].name}</TextThree>
-        <TextFour>{text[4].name}</TextFour>
+        <TextFour>{text[4].name}</TextFour> 
       </Box2>
       <Box2>
         <TextFive>{text[5].name}</TextFive>

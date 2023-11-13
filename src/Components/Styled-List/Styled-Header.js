@@ -24,7 +24,7 @@ export const TextNBA = styled.h1`
     font-size: 1.8em;
   }
 `;
-export const Text = styled.div`
+/*export const Text = styled.div`
   display: none;
   font-style: core-sans-d;
   font-size: 2em;
@@ -35,15 +35,23 @@ export const Text = styled.div`
     font-size: 2em;
   }
 `;
+*/
 
 export const TextTwo = styled.div`
   margin: auto;
   font-style: core-sans-d;
   font-size: 2em;
   font-family: "Oswald", sans-serif;
+  @media (max-width: 480px) {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    font-style: core-sans-d;
+    font-size: 2em;
+  }
   @media (max-width: 768px) {
-    display: none;
-
+    display: block;
+    max-width: 100%;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -54,7 +62,7 @@ export const TextThree = styled.div`
   font-style: core-sans-d;
   font-size: 2em;
   @media (max-width: 768px) {
-    display: block;
+    display: none;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -177,8 +185,8 @@ export const Box2 = styled.div`
   background-color: gray;
   color: white;
   outline: solid 1px white;
-  @media (max-width: 811px) {
-    width: 50%;
+  @media (max-width: 768px) {
+    width: 100%;
     white-space: nowrap;
     font-size: 12px;
     margin-left: auto;
