@@ -135,6 +135,11 @@ export const Box5 = styled.div`
   justify-content: center;
   background-image: url(${player1});
   background-size: cover;
+  ${({ isPoints })  => isPoints && `
+  display:none;
+  @media (max-width: 480px) {
+   display: block;
+  `}
 `;
 export const Box5a = styled.div`
   display: inline-flex;
@@ -328,8 +333,19 @@ word-wrap: break-word;
 .break{
   line-height: 1;
 }
+}
+}
+.playerOneMobile{
+  display:none;
+@media (max-width: 480px) {
+display:block;
+color:yellow;
+}
+}
 p.numberLocation{
-  color:gray;
+  display:none;
+  @media (max-width: 300px) {
+    display:block;
 }
 
 @media (max-width: 600px) {
@@ -337,6 +353,11 @@ p.numberLocation{
   flex-shrink: 0;
   margin: auto;
   }
+  ${({ isPoints })  => isPoints && `
+  display:none;
+  @media (max-width: 300px) {
+   display: block;
+  `}
 `;
 
 export const Box7 = styled.div`
@@ -353,6 +374,11 @@ export const Box7 = styled.div`
   color: gray;
   background: #f8f8f8;
   justify-content: center;
+  ${({ isPoints })  => isPoints && `
+  display:none;
+  @media (max-width: 480px) {
+   display: block;
+  `}
 `;
 export const Box8 = styled.div`
 display:flex;
@@ -371,9 +397,35 @@ justify-content: center;
 
 p.Number{
   color:black;
+   }
+   .NumberMobile{
+    display:none;
+    @media (max-width: 480px) {
+      display:block;
+      color:black;
+    }
+    .numberLocationMobile{
+      display:none;
+      @media (max-width: 480px) {
+      display:block;
+      color:black;
+      }
+
+    }
 }
+
+
 }
+${({ isPoints })  => isPoints && `
+display:none;
+@media (max-width: 300px) {
+  display: block;
+}
+`};
 `;
+
+
+
 
 export const Image = styled.img`
   margin-left: 41.5%;

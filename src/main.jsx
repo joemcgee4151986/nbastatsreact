@@ -6,6 +6,7 @@ import SectionOne from './Components/Body/SectionOne.jsx'
 import SectionTwo from './Components/Body/SectionTwo.jsx'
 import SectionThree from './Components/Body/SectionThree.jsx'
 import SectionFour from './Components/Body/SectionFour.jsx'
+import Points from './Components/Body/Points.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 
 
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    <SectionTwo />
    <SectionThree />
    <SectionFour />
-   <Footer />
+   <Points />
+   {/*}<Footer />{*/}
   </React.StrictMode>,
 )
