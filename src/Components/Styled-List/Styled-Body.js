@@ -68,8 +68,8 @@ export const Box3a = styled.div`
   background-image: url(${Andre});
   outline: solid 1px white;
   font: Helvetica;
-  @media (max-width: 768px) {
-    display:none;
+  @media (max-width: 811px) {
+    width: 50%;
   }
 `;
 
@@ -135,7 +135,11 @@ export const Box5 = styled.div`
   justify-content: center;
   background-image: url(${player1});
   background-size: cover;
-  
+  ${({ isPoints })  => isPoints && `
+  display:none;
+  @media (max-width: 480px) {
+   display: block;
+  `}
 `;
 export const Box5a = styled.div`
   display: inline-flex;
@@ -149,7 +153,6 @@ export const Box5a = styled.div`
   padding-top: 5%;
   align-items: center;
   justify-content: center;
-  
   background-image: url(${player2});
   background-size: cover;
 `;
@@ -199,9 +202,6 @@ export const Box5rebound = styled.div`
   justify-content: center;
   background-image: url(${player5});
   background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 
 export const Box5reboundtwo = styled.div`
@@ -218,9 +218,6 @@ export const Box5reboundtwo = styled.div`
   justify-content: center;
   background-image: url(${player6});
   background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 
 export const Box5reboundthree = styled.div`
@@ -237,9 +234,6 @@ export const Box5reboundthree = styled.div`
   justify-content: center;
   background-image: url(${player7});
   background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 export const Box5assist = styled.div`
   display: inline-flex;
@@ -255,9 +249,6 @@ export const Box5assist = styled.div`
   justify-content: center;
   background-image: url(${player8});
   background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 
 export const Box5assisttwo = styled.div`
@@ -274,9 +265,6 @@ export const Box5assisttwo = styled.div`
   justify-content: center;
   background-image: url(${player9});
   background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 
 export const Box5assistthree = styled.div`
@@ -293,9 +281,6 @@ export const Box5assistthree = styled.div`
   justify-content: center;
   background-image: url(${player10});
   background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 
 export const Box5assistfour = styled.div`
@@ -312,9 +297,6 @@ export const Box5assistfour = styled.div`
   justify-content: center;
   background-image: url(${player11});
   background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 
 export const Box5steal = styled.div`
@@ -331,9 +313,6 @@ export const Box5steal = styled.div`
   justify-content: center;
   background-image: url(${player12});
   background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 export const Box6 = styled.div`
 position: relative;
@@ -356,8 +335,11 @@ word-wrap: break-word;
 }
 }
 }
-
-
+.playerOneMobile{
+  display:none;
+@media (max-width: 480px) {
+display:block;
+color:yellow;
 }
 }
 p.numberLocation{
@@ -371,7 +353,11 @@ p.numberLocation{
   flex-shrink: 0;
   margin: auto;
   }
- 
+  ${({ isPoints })  => isPoints && `
+  display:none;
+  @media (max-width: 300px) {
+   display: block;
+  `}
 `;
 
 export const Box7 = styled.div`
@@ -388,8 +374,11 @@ export const Box7 = styled.div`
   color: gray;
   background: #f8f8f8;
   justify-content: center;
-  
-
+  ${({ isPoints })  => isPoints && `
+  display:none;
+  @media (max-width: 480px) {
+   display: block;
+  `}
 `;
 export const Box8 = styled.div`
 display:flex;
@@ -409,16 +398,30 @@ justify-content: center;
 p.Number{
   color:black;
    }
+   .NumberMobile{
+    display:none;
+    @media (max-width: 480px) {
+      display:block;
+      color:black;
+    }
+    .numberLocationMobile{
+      display:none;
+      @media (max-width: 480px) {
+      display:block;
+      color:black;
+      }
 
     }
 }
-@media (max-width: 480px) {
-  display:none;
-}
 
 
 }
-
+${({ isPoints })  => isPoints && `
+display:none;
+@media (max-width: 300px) {
+  display: block;
+}
+`};
 `;
 
 
@@ -437,5 +440,4 @@ export const Image = styled.img`
     padding-bottom: 4.25rem;
     margin: 0;
   }
-
 `;

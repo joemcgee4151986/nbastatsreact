@@ -18,8 +18,8 @@ export default function SectionOne() {
       <Box7>
         <Text>{counter + 1}</Text>
       </Box7>
-      <Box5  />
-      <Box6 className ="mobile">
+      <Box5 />
+      <Box6>
         <p className="playerOne">
           {PlayerData[0].firstName} 
           <br />
