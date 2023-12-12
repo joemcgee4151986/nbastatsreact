@@ -260,7 +260,7 @@ display:flex;
 align-items: flex-start;
 position: relative;
 
-color: gray;
+
 flex-direction: column; 
 outline: solid 1px white;
 width: 4%; 
