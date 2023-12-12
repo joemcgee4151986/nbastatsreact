@@ -39,21 +39,11 @@ min-height:209px;
 
 
 color: white;
-background-image:  url(${Curry});
+background-image: url(${Curry});
 
 outline: solid 1px white;
-@media (max-width: 320px) {
-  display:block;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  }
-  @media (max-width: 768px) {
-    width: 100%;
-    display: block;
-  margin: 0 auto;
-    }
-  }
+@media (max-width: 768px) {
+  min-width: 100%; 
 `;
 
 export const Box3a = styled.div`
@@ -69,7 +59,11 @@ export const Box3a = styled.div`
   outline: solid 1px white;
   font: Helvetica;
   @media (max-width: 768px) {
-    display:none;
+    display:flex;
+    flex:1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width:100%;
   }
 `;
 
@@ -121,7 +115,7 @@ export const Box4 = styled.div`
   justify-content: center;
 `;
 
-export const Box5 = styled.div`
+export const Box5BaseStyles = styled.div`
   display: inline-flex;
   position: relative;
   background-color: gray;
@@ -129,211 +123,85 @@ export const Box5 = styled.div`
   outline: solid 1px white;
   width: 5%;
   height: 10%;
-
   padding-top: 5%;
   align-items: center;
   justify-content: center;
-  background-image: url(${player1});
   background-size: cover;
+
+  @media (max-width: 480px) {
+    display: none; 
+  }
+`;
+
+
+export const Box5 = styled(Box5BaseStyles)`
+ 
+  background-image: url(${player1});
   
 `;
-export const Box5a = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
+export const Box5a = styled(Box5BaseStyles)`
 
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
   
   background-image: url(${player2});
-  background-size: cover;
-`;
-export const Box5b = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
 
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
+`;
+export const Box5b = styled(Box5BaseStyles)`
+
   background-image: url(${player3});
-  background-size: cover;
+ 
 `;
 
-export const Box5c = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
+export const Box5c = styled(Box5BaseStyles)`
 
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
   background-image: url(${player4});
-  background-size: cover;
+ 
 `;
 
-export const Box5rebound = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
+export const Box5rebound = styled(Box5BaseStyles)`
+ 
 
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
+ 
   background-image: url(${player5});
-  background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
+  
+  
 `;
 
-export const Box5reboundtwo = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
-
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
+export const Box5reboundtwo = styled(Box5BaseStyles)`
+  
   background-image: url(${player6});
-  background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
+  
 `;
 
-export const Box5reboundthree = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
-
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
+export const Box5reboundthree = styled(Box5BaseStyles)`
+ 
   background-image: url(${player7});
-  background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
+ 
+ }
 `;
-export const Box5assist = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
+export const Box5assist = styled(Box5BaseStyles)`
 
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
   background-image: url(${player8});
-  background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 
-export const Box5assisttwo = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
-
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
+export const Box5assisttwo = styled(Box5BaseStyles)`
+ 
   background-image: url(${player9});
-  background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
+ 
 `;
 
-export const Box5assistthree = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
+export const Box5assistthree = styled(Box5BaseStyles)`
 
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
   background-image: url(${player10});
-  background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 
-export const Box5assistfour = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
+export const Box5assistfour = styled(Box5BaseStyles)`
 
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
   background-image: url(${player11});
-  background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 
-export const Box5steal = styled.div`
-  display: inline-flex;
-  position: relative;
-  background-color: gray;
-  flex-direction: row;
-  outline: solid 1px white;
-  width: 5%;
-  height: 10%;
+export const Box5steal = styled(Box5BaseStyles)`
 
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
   background-image: url(${player12});
-  background-size: cover;
-  @media (max-width: 480px) {
-    display:none;
-  }
 `;
 export const Box6 = styled.div`
 position: relative;
@@ -366,7 +234,7 @@ p.numberLocation{
     display:block;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   display:flex;
   flex-shrink: 0;
   margin: auto;
@@ -425,17 +293,14 @@ p.Number{
 
 
 export const Image = styled.img`
-  margin-left: 41.5%;
-  display: block;
-  height: 120px;
-  background-repeat: no-repeat;
-  background-size: contain;
+margin-left: 20%;
+display: block;
+height: auto;
+max-width: 100%;
+background-repeat: no-repeat;
+background-size: contain;
   @media (max-width: 768px) {
     display: none;
-    min-width: 100%;
-    max-height: 100%;
-    padding-bottom: 4.25rem;
-    margin: 0;
   }
 
 `;

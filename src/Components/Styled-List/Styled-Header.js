@@ -24,7 +24,7 @@ export const TextNBA = styled.h1`
     font-size: 1.8em;
   }
 `;
-/*export const Text = styled.div`
+export const Text = styled.div`
   display: none;
   font-style: core-sans-d;
   font-size: 2em;
@@ -35,7 +35,7 @@ export const TextNBA = styled.h1`
     font-size: 2em;
   }
 `;
-*/
+
 
 export const TextTwo = styled.div`
   margin: auto;
@@ -44,14 +44,14 @@ export const TextTwo = styled.div`
   font-family: "Oswald", sans-serif;
   @media (max-width: 480px) {
     display: block;
-    max-width: 100%;
+    max-width: 25%;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
   }
   @media (max-width: 768px) {
-    display: block;
-    max-width: 100%;
+    display: none;
+    max-width: 25%;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -59,10 +59,13 @@ export const TextTwo = styled.div`
 `;
 export const TextThree = styled.div`
   display: none;
+
   font-style: core-sans-d;
   font-size: 2em;
   @media (max-width: 768px) {
-    display: none;
+    
+
+    display: block;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -85,8 +88,8 @@ export const TextFive = styled.div`
   display: none;
   font-style: core-sans-d;
   font-size: 2em;
-  @media (max-width: 811px) {
-    display: none;
+  @media (max-width: 768px) {
+    display: block;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -109,7 +112,7 @@ export const TextSeven = styled.div`
   font-style: core-sans-d;
   font-size: 2em;
   @media (max-width: 768px) {
-    display: none;
+    display: block;
     margin: auto;
     font-style: core-sans-d;
     font-size: 2em;
@@ -186,14 +189,14 @@ export const Box2 = styled.div`
   color: white;
   outline: solid 1px white;
   @media (max-width: 768px) {
-    width: 100%;
+    width: 25%;
     white-space: nowrap;
     font-size: 12px;
     margin-left: auto;
     margin-right: 0;
   }
   @media (max-width: 320px) {
-    width: 100%;
+    width: 25%;
   }
 `;
 
