@@ -58,17 +58,8 @@ export const Box3a = styled.div`
   background-image: url(${Andre});
   outline: solid 1px white;
   font: Helvetica;
-<<<<<<< HEAD
   @media (max-width: 768px) {
-    display:flex;
-    flex:1;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    max-width:100%;
-=======
-  @media (max-width: 811px) {
-    width: 50%;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
+    display:none;
   }
 `;
 
@@ -132,7 +123,6 @@ export const Box5BaseStyles = styled.div`
   align-items: center;
   justify-content: center;
   background-size: cover;
-<<<<<<< HEAD
 
   @media (max-width: 480px) {
     display: none; 
@@ -144,23 +134,10 @@ export const Box5 = styled(Box5BaseStyles)`
  
   background-image: url(${player1});
   
-=======
-  ${({ isPoints })  => isPoints && `
-  display:none;
-  @media (max-width: 480px) {
-   display: block;
-  `}
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
 `;
 export const Box5a = styled(Box5BaseStyles)`
 
-<<<<<<< HEAD
   
-=======
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
   background-image: url(${player2});
 
 `;
@@ -181,78 +158,46 @@ export const Box5rebound = styled(Box5BaseStyles)`
 
  
   background-image: url(${player5});
-<<<<<<< HEAD
   
   
-=======
-  background-size: cover;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
 `;
 
 export const Box5reboundtwo = styled(Box5BaseStyles)`
   
   background-image: url(${player6});
-<<<<<<< HEAD
   
-=======
-  background-size: cover;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
 `;
 
 export const Box5reboundthree = styled(Box5BaseStyles)`
  
   background-image: url(${player7});
-<<<<<<< HEAD
  
  }
-=======
-  background-size: cover;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
 `;
 export const Box5assist = styled(Box5BaseStyles)`
 
   background-image: url(${player8});
-<<<<<<< HEAD
-=======
-  background-size: cover;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
 `;
 
 export const Box5assisttwo = styled(Box5BaseStyles)`
  
   background-image: url(${player9});
-<<<<<<< HEAD
  
-=======
-  background-size: cover;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
 `;
 
 export const Box5assistthree = styled(Box5BaseStyles)`
 
   background-image: url(${player10});
-<<<<<<< HEAD
-=======
-  background-size: cover;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
 `;
 
 export const Box5assistfour = styled(Box5BaseStyles)`
 
   background-image: url(${player11});
-<<<<<<< HEAD
-=======
-  background-size: cover;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
 `;
 
 export const Box5steal = styled(Box5BaseStyles)`
 
   background-image: url(${player12});
-<<<<<<< HEAD
-=======
-  background-size: cover;
->>>>>>> 5d458a70300d18f6ad24748347d3768c384d688d
 `;
 export const Box6 = styled.div`
 position: relative;
@@ -275,11 +220,8 @@ word-wrap: break-word;
 }
 }
 }
-.playerOneMobile{
-  display:none;
-@media (max-width: 480px) {
-display:block;
-color:yellow;
+
+
 }
 }
 p.numberLocation{
@@ -293,11 +235,7 @@ p.numberLocation{
   flex-shrink: 0;
   margin: auto;
   }
-  ${({ isPoints })  => isPoints && `
-  display:none;
-  @media (max-width: 300px) {
-   display: block;
-  `}
+ 
 `;
 
 export const Box7 = styled.div`
@@ -314,11 +252,8 @@ export const Box7 = styled.div`
   color: gray;
   background: #f8f8f8;
   justify-content: center;
-  ${({ isPoints })  => isPoints && `
-  display:none;
-  @media (max-width: 480px) {
-   display: block;
-  `}
+  
+
 `;
 export const Box8 = styled.div`
 display:flex;
@@ -338,30 +273,16 @@ justify-content: center;
 p.Number{
   color:black;
    }
-   .NumberMobile{
-    display:none;
-    @media (max-width: 480px) {
-      display:block;
-      color:black;
-    }
-    .numberLocationMobile{
-      display:none;
-      @media (max-width: 480px) {
-      display:block;
-      color:black;
-      }
 
     }
 }
+@media (max-width: 480px) {
+  display:none;
+}
 
 
 }
-${({ isPoints })  => isPoints && `
-display:none;
-@media (max-width: 300px) {
-  display: block;
-}
-`};
+
 `;
 
 
@@ -377,4 +298,5 @@ background-size: contain;
   @media (max-width: 768px) {
     display: none;
   }
+
 `;
