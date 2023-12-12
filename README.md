@@ -8,7 +8,11 @@
   <h2>Coming Soon!</h2>
 
 # Running the project
-  <h2>Coming Soon!</h2>
+  <ul>
+   <li>Click on the green button on the right side of your screen. <a href = "https://github.com/joemcgee4151986/nbastatsreact/assets/16703432/eca7c702-b2dc-414c-bcd7-ff96d00a36aa"> Click here</a></li>
+   <li>Since I use gitbash, copy the command line from https and paste it there. It should download the project to your computer</li>
+   <li>Run yarn run dev to run the project. That should be it.</li>
+  </ul>
 
 # Dev Dependencies
 <ul>
